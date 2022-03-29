@@ -1,3 +1,5 @@
+// Person class
+
 
 public class Person implements Comparable<Person>{
 	
@@ -46,6 +48,4 @@ public class Person implements Comparable<Person>{
 	public int compareTo(Person o) {
 		return this.getFirstName().compareToIgnoreCase(o.getFirstName());
 	}
-	
-	
 }
